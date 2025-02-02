@@ -11,13 +11,23 @@ body {
 }
 
 header {
-  height: 50px;
-  display: flex;
+  margin-top: 30px;
   padding: 0 2rem;
-  justify-content: space-between;
+}
+
+.header-container {
+  display: flex;
   align-items: center;
-  border-bottom: 1px solid #ccc;
-  background: #fafafa;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.time {
+  font-size: 1rem;
 }
 
 main {
@@ -25,6 +35,11 @@ main {
   margin: 0 auto;
   padding: 1rem;
   padding-top: 2rem;
+}
+
+.mainTitle {
+  margin-bottom: 1rem;
+  margin-left: 1rem;
 }
 
 h3 {
