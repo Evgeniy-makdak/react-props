@@ -1,4 +1,4 @@
-import logo from '/public/images/logo.jpg'
+import logo from '/images/logo.jpg'
 
 export default function Header() {
     const currentTime = new Date().toLocaleTimeString('ru-RU', { hour12: false });
